@@ -3,6 +3,12 @@ This repository is the official implementation of the preprint entitled ["Interp
 
 InterpretCC (interpretable conditional computation) is a family of interpretable-by-design neural networks that guarantee human-centric interpretability while maintaining comparable performance to state-of-the-art models by adaptively and sparsely activating features before prediction. We extend this idea into an interpretable mixture-of-experts model that allows humans to specify topics of interest, discretely separates the feature space for each data point into topical subnetworks, and adaptively and sparsely activates these topical subnetworks. We demonstrate variations of the InterpretCC architecture for text and tabular data across several real-world benchmarks: six online education courses, news classification, breast cancer diagnosis, and review sentiment.
 
+## Quick Start Guide
+1. `git clone https://github.com/epfl-ml4ed/interpretcc.git`
+2. `pip install -r requirements.txt`
+3. `jupyter notebook`
+4. Run feature gating or interpretable mixture-of-experts experiments as Jupyter Notebooks in the `\notebooks` folder!
+
 ## Repository Structure
 
 Experiments are located in `notebooks/`, corresponding directly to the three model variations (feature gating, MoE gated routing, MoE top-k routing) mentioned in the paper. The full pipeline is included for the AG News dataset. The InterpretCC models were written in PyTorch.
