@@ -5,9 +5,10 @@ InterpretCC (interpretable conditional computation) is a family of interpretable
 
 ## Quick Start Guide
 1. `git clone https://github.com/epfl-ml4ed/interpretcc.git`
-2. `pip install -r requirements.txt`
-3. `jupyter notebook`
-4. Run feature gating or interpretable mixture-of-experts experiments as Jupyter Notebooks in the `\notebooks` folder!
+2. `cd interpretcc`
+3. `pip install -r requirements.txt`
+4. `jupyter notebook`
+5. Run feature gating or interpretable mixture-of-experts experiments as Jupyter Notebooks in the `notebooks/` folder!
 
 ## Repository Structure
 
