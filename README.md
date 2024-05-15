@@ -1,5 +1,4 @@
 # InterpretCC
-This repository is the official implementation of the preprint entitled ["InterpretCC: Conditional Computation for Inherently Interpretable Neural Networks"](https://arxiv.org/abs/2402.02933) written by [Vinitra Swamy](http://github.com/vinitra), [Julian Blackwell](https://ch.linkedin.com/in/julian-blackwell-93407a13b), [Jibril Frej](https://github.com/Jibril-Frej), [Martin Jaggi](https://github.com/martinjaggi), and [Tanja Käser](https://people.epfl.ch/tanja.kaeser/?lang=en).  
 
 InterpretCC (interpretable conditional computation) is a family of interpretable-by-design neural networks that guarantee human-centric interpretability while maintaining comparable performance to state-of-the-art models by adaptively and sparsely activating features before prediction. We extend this idea into an interpretable mixture-of-experts model that allows humans to specify topics of interest, discretely separates the feature space for each data point into topical subnetworks, and adaptively and sparsely activates these topical subnetworks. We demonstrate variations of the InterpretCC architecture for text and tabular data across several real-world benchmarks: six online education courses, news classification, breast cancer diagnosis, and review sentiment.
 
@@ -26,14 +25,6 @@ This code is provided for educational purposes and aims to facilitate reproducti
 in this direction. We have done our best to document, refactor, and test the code before publication.
 
 If you find any bugs or would like to contribute new models, training protocols, etc, please let us know. Feel free to file issues and pull requests on the repo and we will address them as we can.
-
-## Citations
-If you find this code useful in your work, please cite our paper:
-
-```
-Swamy, V., Blackwell, J., Frej, J., Jaggi, M., Käser, T. (2024). 
-InterpretCC: Conditional Computation for Inherently Interpretable Neural Networks. 
-```
 
 ## License
 This code is free software: you can redistribute it and/or modify it under the terms of the [MIT License](LICENSE).
