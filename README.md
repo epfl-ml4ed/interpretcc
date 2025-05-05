@@ -1,6 +1,6 @@
 # InterpretCC
 
-This repository is the official implementation of the preprint entitled ["InterpretCC: Conditional Computation for Inherently Interpretable Neural Networks"](https://arxiv.org/abs/2402.02933) written by [Vinitra Swamy](http://github.com/vinitra), [Julian Blackwell](https://ch.linkedin.com/in/julian-blackwell-93407a13b), [Jibril Frej](https://github.com/Jibril-Frej), [Martin Jaggi](https://github.com/martinjaggi), and [Tanja Käser](https://people.epfl.ch/tanja.kaeser/?lang=en).
+This repository is the official implementation of the paper entitled ["Intrinsic User-Centric Interpretability through Global Mixture of Experts"](https://arxiv.org/abs/2402.02933) written by [Vinitra Swamy](http://github.com/vinitra), [Syrielle Montariol](https://smontariol.github.io/), [Julian Blackwell](https://ch.linkedin.com/in/julian-blackwell-93407a13b), [Jibril Frej](https://github.com/Jibril-Frej), [Martin Jaggi](https://github.com/martinjaggi), and [Tanja Käser](https://people.epfl.ch/tanja.kaeser/?lang=en). This work was featured at ICLR 2025 (top 5\% of review scores).
 
 InterpretCC (interpretable conditional computation) is a family of interpretable-by-design neural networks that guarantee human-centric interpretability while maintaining comparable performance to state-of-the-art models by adaptively and sparsely activating features before prediction. We extend this idea into an interpretable mixture-of-experts model that allows humans to specify topics of interest, discretely separates the feature space for each data point into topical subnetworks, and adaptively and sparsely activates these topical subnetworks. We demonstrate variations of the InterpretCC architecture for text and tabular data across several real-world benchmarks: six online education courses, news classification, breast cancer diagnosis, and review sentiment.
 
@@ -31,8 +31,8 @@ If you find any bugs or would like to contribute new models, training protocols,
 ## Citations  
 If you find this code useful in your work, please cite our paper:
 ```
-Swamy, V., Blackwell, J., Frej, J., Jaggi, M., Käser, T. (2024). 
-InterpretCC: Conditional Computation for Inherently Interpretable Neural Networks. 
+Swamy, V., Montariol, S., Blackwell, J., Frej, J., Jaggi, M., Käser, T. (ICLR 2025). 
+Intrinsic User-Centric Interpretability through Global Mixture of Experts. 
 ```
 ## License
 This code is free software: you can redistribute it and/or modify it under the terms of the [MIT License](LICENSE).
